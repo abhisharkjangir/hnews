@@ -1,0 +1,25 @@
+.header {
+  background: var(--hnews-bg);
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.logoWrapper {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: var(--fs-20);
+  font-weight: 600;
+}
+
+.logo {
+  color: var(--white);
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  padding-top: 2px;
+  border:  1px solid var(--white);
+}

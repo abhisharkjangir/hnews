@@ -1,0 +1,205 @@
+:root {
+  --font-Calibre: Calibre, "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial,
+    sans-serif;
+  --font-SFMono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", Monaco, monospace;
+
+    --primary-bg : #4285F4;
+    --secondary-bg:#66757F;
+    --success-bg :    #34A853;
+    --warning-bg: #FBBC05;
+    --danger-bg: #EA4335;
+    --light-bg:#F5F5F1;
+    --dark-bg:#292F33;
+    --info-bg:#55ACEE;
+    --white-bg : #ffffff;
+    --hnews-bg:#ff6600;
+
+    --primary : #4285F4;
+    --secondary:#66757F;
+    --success :    #34A853;
+    --warning: #FBBC05;
+    --danger: #EA4335;
+    --light:#F5F5F1;
+    --dark:#292F33;
+    --info:#55ACEE;
+    --white : #ffffff;
+    --hnews:#ff6600;
+
+    --fs-12: 12px;
+    --fs-13: 13px;
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-36: 36px;
+
+
+    /* Border Radius */
+    --br5 : 5px;
+    --br10 : 10px;
+    --box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-LightItalic.woff2") format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-LightItalic.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-LightItalic.woff2") format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-LightItalic.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-Regular.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-RegularItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-RegularItalic.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-Medium.woff2") format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-Medium.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-MediumItalic.woff2") format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-MediumItalic.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-Semibold.woff2") format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-Semibold.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../assets/fonts/Calibre/Calibre-SemiboldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/Calibre/Calibre-SemiboldItalic.woff") format("woff"),
+    url("../assets/fonts/Calibre/Calibre-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono/SFMono-Regular.woff2") format("woff2"),
+    url("../assets/fonts/SFMono/SFMono-Regular.woff") format("woff"),
+    url("../assets/fonts/SFMono/SFMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono/SFMono-RegularItalic.woff2") format("woff2"),
+    url("../assets/fonts/SFMono/SFMono-RegularItalic.woff") format("woff"),
+    url("../assets/fonts/SFMono/SFMono-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono/SFMono-Medium.woff2") format("woff2"),
+    url("../assets/fonts/SFMono/SFMono-Medium.woff") format("woff"),
+    url("../assets/fonts/SFMono/SFMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono/SFMono-MediumItalic.woff2") format("woff2"),
+    url("../assets/fonts/SFMono/SFMono-MediumItalic.woff") format("woff"),
+    url("../assets/fonts/SFMono/SFMono-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono/SFMono-Semibold.woff2") format("woff2"),
+    url("../assets/fonts/SFMono/SFMono-Semibold.woff") format("woff"),
+    url("../assets/fonts/SFMono/SFMono-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/SFMono/SFMono-SemiboldItalic.woff2") format("woff2"),
+    url("../assets/fonts/SFMono/SFMono-SemiboldItalic.woff") format("woff"),
+    url("../assets/fonts/SFMono/SFMono-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+  font-family: var(--font-Calibre);
+  background-color: var(--white-bg);
+  color: var(--dark)
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding-inline-start: 0;
+}
