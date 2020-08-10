@@ -1,7 +1,7 @@
 {
-  "short_name": "c19",
-  "name": "c19",
-  "description": "c19",
+  "short_name": "Hnews",
+  "name": "Hnews",
+  "description": "Hnews",
   "icons": [
     {
       "src": "https://hnews.abhisharjangir.com/static/assets/logo512.png",
@@ -14,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://hnews.abhisharjangir.com/?utm_source=a2hs",
+  "start_url": "https://hnews.abhisharjangir.com",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000"
