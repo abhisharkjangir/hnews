@@ -49,7 +49,7 @@ class Home extends React.PureComponent {
     } = this.props;
 
     if (isFetching) {
-      return 'fetcging';
+      return 'Fetching news list...';
     }
 
     const { hits } = data;
