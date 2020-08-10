@@ -10,7 +10,7 @@ const env = isProduction ? 'production' : 'development';
 
 const { publicPath } = getClientConfig(env).output;
 const outputPath = getClientConfig(env).output.path;
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 4004;
 
 const app = express();
 app.use(compression());
