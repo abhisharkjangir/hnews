@@ -10,7 +10,7 @@ export const selectNews = () =>
       isFetching: ns.get('isFetching'),
       data: isImmutable(ns.get('data'))
         ? ns.get('data').toJS()
-        : ns.get('data'),
+        : ns.get('data') || {},
       error: ns.get('error'),
     };
   });
