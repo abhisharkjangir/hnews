@@ -18,7 +18,7 @@ const LOCAL_ENV = {};
 
 const COMMON_ENV = {
   // Add here if there is any `COMMON ENVIRONMENT VARIABLES`
-  URL: 'http://hn.algolia.com/api/v1/',
+  URL: 'https://hn.algolia.com/api/v1/',
 };
 
 const appEnv = process.env.REACT_APP_ENV;
